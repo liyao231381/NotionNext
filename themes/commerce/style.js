@@ -11,7 +11,7 @@ const Style = () => {
         background-color: #f5f5f5
     }
     .dark body{
-        background-color: black;
+        background-color: white;
     }
 
     // 产品介绍区域字体放大
