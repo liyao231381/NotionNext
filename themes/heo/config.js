@@ -8,8 +8,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '来了老弟？', url: 'https://blog.tangly1024.com' },
-    { title: '有空常来玩儿啊！', url: 'https://docs.tangly1024.com' }
+    { title: 'BXLT', url: 'https://blog.tangly1024.com' },
+    { title: '原创健身服装潮牌', url: 'https://docs.tangly1024.com' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -28,8 +28,8 @@ const CONFIG = {
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '造型教学', url: '/tag/教学' },
-  HEO_HERO_CATEGORY_2: { title: '认知', url: '/tag/认知' },
+  HEO_HERO_CATEGORY_1: { title: '分类', url: '/categories' },
+  HEO_HERO_CATEGORY_2: { title: '标签', url: '/tag' },
   HEO_HERO_CATEGORY_3: { title: '文稿？', url: '/tag/文稿' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
@@ -139,7 +139,7 @@ const CONFIG = {
   HEO_POST_LIST_IMG_CROSSOVER: true, // 博客列表图片左右交错
 
   HEO_ARTICLE_ADJACENT: true, // 显示上一篇下一篇文章推荐
-  HEO_ARTICLE_COPYRIGHT: true, // 显示文章版权声明
+  HEO_ARTICLE_COPYRIGHT: false, // 显示文章版权声明
   HEO_ARTICLE_RECOMMEND: true, // 文章关联推荐
 
   HEO_WIDGET_LATEST_POSTS: true, // 显示最新文章卡
