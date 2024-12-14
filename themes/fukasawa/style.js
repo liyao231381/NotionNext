@@ -48,8 +48,8 @@ const Style = () => {
     .container {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            grid-gap: 5px;
-            padding: 5px;
+            grid-gap: 1px;
+            padding: 1px;
         }
 
   `}</style>
