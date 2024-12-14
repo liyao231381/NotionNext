@@ -33,7 +33,7 @@ const Style = () => {
     @media (min-width: 640px) and (max-width: 1023px) {
         #theme-fukasawa .grid-container {
         column-count: 2;
-        column-gap: .5rem;
+        column-gap: .2rem;
         }
     }
     
