@@ -40,7 +40,7 @@ const Style = () => {
     /* 移动端（宽度<640px）下显示1列 */
     @media (max-width: 639px) {
         #theme-fukasawa .grid-container {
-        column-count: 1;
+        column-count: 2;
         column-gap: .5rem;
         }
     }
@@ -48,8 +48,8 @@ const Style = () => {
     .container {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            grid-gap: 10px;
-            padding: 10px;
+            grid-gap: 5px;
+            padding: 5px;
         }
 
   `}</style>
